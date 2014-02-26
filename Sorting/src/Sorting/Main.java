@@ -20,11 +20,11 @@ public class Main {
 		}
 		System.out.println();
 		
-		int[] sortedArray = BubbleSort.bubbleSort(unsortedArray);
-		System.out.println("Sorted Array:");
-		for (int i: sortedArray) {
+		int[] sorted = InsertionSort.insertionSort(unsortedArray);
+		//TODO: sort the array and print out its contents
+		for (int i: sorted) {
 			System.out.print(i + " ");
-		}		
+		}
 		
 	}
 
